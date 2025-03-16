@@ -80,8 +80,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API setup Using Mistral AI
-# MISTRAL_API_KEY = "3SEmEMRvlZouWdr85cQxJAgdwSmMSxzw"  # Replace with your actual API key
-MISTRAL_API_KEY = st.secrets["mistral_api_key"]
+MISTRAL_API_KEY = "3SEmEMRvlZouWdr85cQxJAgdwSmMSxzw"  # Replace with your actual API key
+# MISTRAL_API_KEY = st.secrets["mistral_api_key"]
 mistral_api_url = "https://api.mistral.ai/v1/chat/completions"
 
 
