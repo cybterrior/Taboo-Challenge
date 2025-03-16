@@ -103,3 +103,12 @@ https://taboo-challenge.streamlit.app/
     Use synonyms or descriptive phrases to avoid taboo words.
 
     Keep your clues clear and concise for better AI understanding.
+
+# Game Demo
+![image](https://github.com/user-attachments/assets/c79d3518-4a4b-474b-8f98-f2eea2d7348e)
+
+***
+
+![image](https://github.com/user-attachments/assets/290922a3-2ed9-4ea8-9ead-1fbcbeaf5edc)
+
+
