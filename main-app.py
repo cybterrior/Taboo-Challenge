@@ -152,7 +152,7 @@ def get_ai_guess(clue):
         response.raise_for_status()
         result = response.json()
         # first_word = result["choices"][0]["message"]["content"].strip().split()[0] 
-        return result["choices"][0]["message"]["content"].strip().split()[0] 
+        return result["choices"][0]["message"]["content"].strip().split()[0].replace(".", "")
     except Exception as e:
         st.error(f"Error calling Mistral AI: {str(e)}")
         return "API Error"
