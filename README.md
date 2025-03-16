@@ -60,11 +60,9 @@ https://taboo-challenge.streamlit.app/
 
     The game ends when:
 
-        All questions are answered, or
+        All questions are answered
 
-        The timer runs out (if enabled).
-
-    Your final score and gameplay details will be displayed.
+    At the end, your final score and gameplay details will be displayed.
 
 ***
 
@@ -84,17 +82,17 @@ https://taboo-challenge.streamlit.app/
 
     Be creative with your clues to help the AI guess the target word.
 
-    The faster and more accurately the AI guesses, the higher your score!
+    If the AI guesses correctly, you get the point!
 
 ***
 
 # Example
 
-    Target Word: "Elephant"
+    Target Word: "Firewal"
 
-    Taboo Words: "Animal", "Trunk", "Big"
+    Taboo Words: ["Security", "Network", "Protection", "Block", "Traffic", "Filter"]
 
-    Your Clue: "A large mammal with tusks and a long nose."
+    Your Clue: "I guard the digital gates. What am I?"
 
     AI's Guess: "Elephant" (Correct!)
 
